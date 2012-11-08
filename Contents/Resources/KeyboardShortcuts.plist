@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>expand_abbreviation</key>
+	<string>^e</string>
+	<key>wrap_with_abbreviation</key>
+	<string>^a</string>
+	<key>update_image_size</key>
+	<string>^i</string>
+	<key>next_edit_point</key>
+	<string>^</string>
+	<key>prev_edit_point</key>
+	<string>^</string>
+	<key>select_next_item</key>
+	<string>^$</string>
+	<key>select_previous_item</key>
+	<string>^$</string>
+	<key>match_pair_outward</key>
+	<string>^$d</string>
+	<key>merge_lines</key>
+	<string>^m</string>
+	<key>remove_tag</key>
+	<string>@&apos;</string>
+	<key>split_join_tag</key>
+	<string>@$&apos;</string>
+	<key>toggle_comment</key>
+	<string>@\</string>
+	<key>evaluate_math_expression</key>
+	<string>@y</string>
+	<key>reflect_css_value</key>
+	<string>^r</string>
+	<key>encode_decode_data_url</key>
+	<string>^$i</string>
+	<key>increment_number_by_1</key>
+	<string>^</string>
+	<key>decrement_number_by_1</key>
+	<string>^</string>
+	<key>increment_number_by_01</key>
+	<string>~</string>
+	<key>decrement_number_by_01</key>
+	<string>~</string>
+	<key>increment_number_by_10</key>
+	<string>^$</string>
+	<key>decrement_number_by_10</key>
+	<string>^$</string>
+</dict>
+</plist>
