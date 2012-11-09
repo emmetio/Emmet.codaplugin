@@ -8,12 +8,6 @@
 	<array>
 		<dict>
 			<key>id</key>
-			<string>common</string>
-			<key>title</key>
-			<string>Default</string>
-		</dict>
-		<dict>
-			<key>id</key>
 			<string>html</string>
 			<key>title</key>
 			<string>HTML</string>
@@ -41,6 +35,12 @@
 			<string>haml</string>
 			<key>title</key>
 			<string>HAML</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>common</string>
+			<key>title</key>
+			<string>Unknown</string>
 		</dict>
 	</array>
 	<key>output</key>
