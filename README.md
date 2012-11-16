@@ -1,4 +1,4 @@
-# Emmet plugin for Espresso editor #
+# Emmet plugin for Coda editor #
 
 **This plugin is automatically generated from [Emmet Objective-C](https://github.com/emmetio/emmet-objc) project. Please do not provide any pull requests here.**
 
