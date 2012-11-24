@@ -154,7 +154,8 @@ var objcEmmetEditor = (function() {
 		 * @return {String}
 		 */
 		getProfileName: function() {
-			return objcToString(ctx.profileName());
+			var profile = ctx.profileName();
+			return profile ? objcToString(profile) : null;
 		},
 		
 		/**
