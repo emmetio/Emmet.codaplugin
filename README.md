@@ -8,7 +8,7 @@ Clone project into `~/Library/Application Support/Coda/Plug-ins/` (Coda 1.x) or 
 
 or
 
-1. [Download](/emmetio/Emmet.codaplugin/archive/master.zip) plugin.
+1. [Download](https://github.com/emmetio/Emmet.codaplugin/archive/master.zip) plugin.
 2. Unpack it 
 3. Rename extracted folder to `Emmet.codaplugin`.
 4. Double-click on `Emmet.codaplugin` to install.
