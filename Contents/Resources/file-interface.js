@@ -5,8 +5,19 @@ emmet.define('file', function(require, _) {
 			context = ctx;
 		},
 
-		read: function(path) {
-			return String(context.read(path));
+		read: function(path, size, callback) {
+			var args = _.rest(arguments);
+			callback = _.last(args);
+			args = _.initial(args);
+			if (!args.length) {
+				size = 0;
+			}
+			var content = context.read_ofSize(path, 0);
+			if (content) {
+				callback(null, String(content));
+			} else {
+				callback('ObjC error');
+			}
 		},
 
 		locateFile: function(baseFile, fileName) {
