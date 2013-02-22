@@ -5,19 +5,32 @@ emmet.define('file', function(require, _) {
 			context = ctx;
 		},
 
-		read: function(path, size, callback) {
-			var args = _.rest(arguments);
-			callback = _.last(args);
+		_parseParams: function(args) {
+			var params = {
+				path: args[0],
+				size: -1
+			};
+
+			args = _.rest(args);
+			params.callback = _.last(args);
 			args = _.initial(args);
-			if (!args.length) {
-				size = 0;
+			if (args.length) {
+				params.size = args[0];
 			}
-			var content = context.read_ofSize(path, 0);
-			if (content) {
-				callback(null, String(content));
-			} else {
-				callback('ObjC error');
-			}
+
+			return params;
+		},
+
+		read: function(path, size, callback) {
+			var params = this._parseParams(arguments);
+			var content = context.read_ofSize(params.path, 0);
+			params.callback(content ? null : 'ObjC error', content);
+		},
+
+		readText: function(path, size, callback) {
+			var params = this._parseParams(arguments);
+			var content = context.readText(params.path);
+			params.callback(content ? null : 'ObjC error', String(content || ''));
 		},
 
 		locateFile: function(baseFile, fileName) {

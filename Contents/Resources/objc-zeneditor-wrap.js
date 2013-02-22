@@ -256,3 +256,7 @@ function objcExtractTabstopsOnInsert(text) {
 function objcSetPreference(name, value) {
 	require('preferences').set(objcToString(name), value + '');
 }
+
+emmet.log = function(message) {
+	NSLog(message);
+};
