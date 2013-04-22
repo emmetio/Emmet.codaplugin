@@ -34,7 +34,7 @@ emmet.define('file', function(require, _) {
 		},
 
 		locateFile: function(baseFile, fileName) {
-			return context.locateFile_relativeTo(fileName, baseFile);
+			 return fileName ? context.locateFile_relativeTo(fileName, baseFile) : null;
 		},
 
 		createPath: function(basePath, fileName) {
