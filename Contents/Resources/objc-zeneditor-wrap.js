@@ -278,6 +278,10 @@ function objcSetPreference(name, value) {
 	require('preferences').set(objcToString(name), value + '');
 }
 
+function objcSetIndentation(value) {
+	require('resources').setVariable('indentation', objcToString(value));
+}
+
 emmet.log = function(message) {
 	NSLog(message);
 };
