@@ -1,5 +1,7 @@
 # Emmet plugin for Coda editor #
 
+[![Get Support](http://codersclan.net/graphics/getSupport_github4.png)](http://codersclan.net/support/step1.php?repo_id=4)
+
 **This plugin is automatically generated from [Emmet Objective-C](https://github.com/emmetio/emmet-objc) project. Please do not provide any pull requests here.**
 
 ## How to install ##
