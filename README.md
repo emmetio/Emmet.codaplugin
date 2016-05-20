@@ -1,8 +1,6 @@
-# Emmet plugin for Coda editor #
+# This plugin is deprecated and works on OSX prior 10.9 and Coda 1.x. Use [Emmet for Coda](http://emmet.io/download/coda/) plugin instead. #
 
-[![Get Support](http://codersclan.net/graphics/getSupport_github4.png)](http://codersclan.net/support/step1.php?repo_id=4)
-
-**This plugin is automatically generated from [Emmet Objective-C](https://github.com/emmetio/emmet-objc) project. Please do not provide any pull requests here.**
+----
 
 ## How to install ##
 
