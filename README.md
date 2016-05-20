@@ -1,7 +1,5 @@
 # This plugin is deprecated and works on OSX prior 10.9 and Coda 1.x. Use [Emmet for Coda](http://emmet.io/download/coda/) plugin instead. #
 
-----
-
 ## How to install ##
 
 Clone project into `~/Library/Application Support/Coda/Plug-ins/` (Coda 1.x) or `~/Library/Application Support/Coda 2/Plug-ins/` (Coda 2.x) and restart Coda.
